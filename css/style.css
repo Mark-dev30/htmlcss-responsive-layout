@@ -76,10 +76,12 @@ main{
 .application{
     margin-top: 20px;
 }
-.row-application, .row-planning, .row-partners, .row-benefits, .row-about{
+.row{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
+}
+.application .row:first-child{
+    margin-bottom: 10px;
 }
 
 .clm-66{
@@ -99,6 +101,11 @@ main{
 
 
 /* section planning */
+.planning{
+    margin: 20px 0;
+}
+
+/* section partners */
 .partners{
     width: 100%;
     margin: 20px 0;

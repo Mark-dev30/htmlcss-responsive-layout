@@ -1,0 +1,35 @@
+@media screen and (max-width:768px){
+   
+    .planning .row{
+        flex-direction:column ;
+        align-items: center;
+    }
+
+    .planning .clm{
+        width: 100%;
+    }
+
+    .row-benefits .clm-30{
+        width: 50%;
+    }
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clm{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .application .row:first-child{
+        margin-bottom: 0;
+    }
+    
+}
