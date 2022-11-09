@@ -12,6 +12,14 @@
     .row-benefits .clm-30{
         width: 50%;
     }
+
+    .clm-nav-right ul{
+        display: none;
+    }
+
+    .clm-nav-right .bars{
+        display: block;
+    }
 }
 
 
