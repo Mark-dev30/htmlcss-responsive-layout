@@ -25,6 +25,7 @@
 .background-white{
     background-color: white;
 }
+/* align */
 
 .align-center-80{
     width: 80%;
@@ -40,15 +41,43 @@
     margin-bottom: 20px;
 }
 
+.padding-20px{
+    padding: 20px;
+}
+
+.margin-20px{
+    margin: 20px;
+}
+
+/* border */
+
+.border-radius{
+    border: transparent;
+    border-radius: 10px;
+}
+
+
+
+
 /* button */
 .color-black{
     color: black;
+}
+
+.color-white{
+    color: white;
 }
 
 .button-small{
     border: transparent;
     border-radius: 20px;
     padding: 8px 15px;
+}
+
+.button-medium{
+    border: transparent;
+    border-radius: 20px;
+    padding: 8px 40px;
 }
 
 
@@ -106,6 +135,8 @@ nav{
     display: none;
 }
 
+
+
 /* main */
 
 main{
@@ -120,22 +151,63 @@ main{
     justify-content: space-between;  
 }
 .application .row:first-child{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .clm-66{
     width: 66%;
-    height: 50px;
+    display: flex;
+    
 }
 
 .clm-32{
     width: 32%;
-    height: 50px;
+    
+    
 }
 
 .clm-30{
     width: 32%;
-    height: 50px;
+    
+}
+
+/* content */
+.content{
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.content h3, .content-icon span, .content-icon h3{
+    color: #0084fd;
+}
+
+.content p, .content-icon p{
+    color: grey;
+}
+.content img{
+    margin: 0 0 -4px 30px;
+    width: 80%;
+}
+
+.content p, .content button{
+    margin-top: 20px;
+
+}
+
+
+
+/* content icon */
+.content-icon{
+    text-align: center;
+    
+}
+
+.content-icon span{
+    font-size: 60px;
+}
+
+.content-icon h3{
+    margin: 15px 0;
 }
 
 

@@ -20,6 +20,15 @@
     .clm-nav-right .bars{
         display: block;
     }
+
+    .content{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .clm-66{
+        flex-direction: column;
+    }
 }
 
 
@@ -31,13 +40,17 @@
         align-items: center;
     }
 
-    .clm{
+    .clm, .content{
         width: 100%;
         margin-bottom: 10px;
     }
 
     .application .row:first-child{
         margin-bottom: 0;
+    }
+    
+    .clm-66{
+        flex-direction: column;
     }
     
 }
