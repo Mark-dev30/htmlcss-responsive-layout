@@ -1,4 +1,4 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:991px){
    
     .planning .row{
         flex-direction:column ;
@@ -36,9 +36,7 @@
 }
 
 
-
-
-@media screen and (max-width:480px) {
+@media screen and (max-width:576px) {
     .row{
         flex-direction: column;
         align-items: center;
@@ -55,6 +53,10 @@
     
     .clm-66{
         flex-direction: column;
+    }
+
+    .clm-benefits{
+        width: 100%;
     }
     
 }

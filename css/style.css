@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 p{
@@ -173,9 +174,17 @@ main{
     margin-bottom: 20px;
 }
 
+
+/* columns */
+
+.clm-30{
+    width: 30%;
+    padding: 10px 0;
+    text-align: center;
+}
+
 .clm-32{
-    width: 32%; 
-    
+    width: 32%;   
 }
 
 .clm-50{
@@ -188,6 +197,20 @@ main{
 }
 
 
+.clm-80{
+    width: 80%;
+    color: white; 
+}
+
+.clm-20, .clm-80{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
 
 
 
@@ -195,6 +218,8 @@ main{
 
 .content{
     width: 50%;
+    padding: 20px;
+    
 }
 
 .content h3, .content-icon span, .content-icon h3{
@@ -204,9 +229,17 @@ main{
 .content p, .content-icon p{
     color: grey;
 }
-.content img{
-    margin: 0 0 -4px 30px;
-    width: 80%;
+.content-img{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-phone{
+    
+}
+.img-phone img{
+    width: 70%;
 }
 
 .content p, .content button{
@@ -314,21 +347,6 @@ main{
     border-radius: 50%;
 }
 
-.clm-20{
-    width: 20%;
-}
-
-.clm-80{
-    width: 80%;
-    color: white; 
-}
-
-.clm-20, .clm-80{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
 .clm-80 h4{
     margin-top: 10px;
 }
@@ -358,7 +376,8 @@ main{
 
 .title-benefits{
     width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 30px 0;
     text-align: center;
     color: white;
 }
