@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p{
+    line-height: 25px;
+}
+
 /* Utility */
 
 .background-blue{
@@ -51,9 +55,12 @@
 
 /* border */
 
-.border-radius{
-    border: transparent;
+.border-radius-10px{
     border-radius: 10px;
+}
+
+.border-radius-30px{
+    border-radius: 30px;
 }
 
 
@@ -157,24 +164,22 @@ main{
 .clm-66{
     width: 66%;
     display: flex;
-    
 }
 
 .clm-32{
-    width: 32%;
-    
+    width: 32%; 
     
 }
 
-.clm-30{
-    width: 32%;
-    
+
+.clm-50{
+    width: 50%;
 }
 
 /* content */
+
 .content{
     width: 50%;
-    word-wrap: break-word;
 }
 
 .content h3, .content-icon span, .content-icon h3{
@@ -211,10 +216,59 @@ main{
 }
 
 
+
 /* section planning */
 .planning{
+    margin: 30px 0;
+}
+
+.planning1-img{
+    margin: 40px 0;
+}
+
+.text-planning{
+    color: white;
+}
+
+.text-planning p{
     margin: 20px 0;
 }
+
+.planning1-img img{
+    width: 70%;
+}
+
+
+
+
+.planning2{
+    display: flex;
+    align-items: flex-end;
+    text-align: center; 
+}
+
+.planning2-img{
+    margin: 0 0 20px 10px;
+}
+
+.planning2-img img{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.planning2-img p{
+    margin: 20px 0;
+    color: gray;
+    
+}
+
+.planning2-img i{
+    padding: 15px;
+    border: transparent;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
 
 /* section partners */
 .partners{
@@ -225,21 +279,105 @@ main{
 .row-partners{
     margin-bottom: 20px;
 }
-.clm-50{
-    width: 50%;
-    height: 50px;
-    background-color: pink;
+
+
+.title-partners{
+    text-align: center;
 }
 
+.title-partners p{
+    margin: 20px 0 ;
+}
+
+.title-partners h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #9792e4;
+}
+    
+.img-testimonials{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.clm-20{
+    width: 20%;
+}
+
+.clm-80{
+    width: 80%;
+    color: white; 
+}
+
+.clm-20, .clm-80{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.clm-80 h4{
+    margin-top: 10px;
+}
+
+
 /* section benefits */
+.benefits{
+    width: 100%;
+}
+
+.clm-benefits{
+    width: 30%;
+    margin-bottom: 20px ;
+    
+}
 
 .row-benefits{
+    width: 80%;
+    margin: 0 auto;
+
     flex-wrap: wrap;
 }
 
 .row-benefits .clm-30{
     margin: 20px 0;
 }
+
+.title-benefits{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+.cards{
+    padding: 30px;
+}
+
+.cards h2, .cards h3 {
+    color: #9792e4;
+}
+
+.cards h2{
+    font-size: 60px;
+}
+
+
+.cards h3{
+    margin: 15px 0;
+}
+
+.cards p{
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.cards button{
+    color: white;
+}
+
+
+
 
 /* section about us */
 

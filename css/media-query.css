@@ -29,6 +29,10 @@
     .clm-66{
         flex-direction: column;
     }
+
+    .clm-benefits{
+        width: 45%;
+    }
 }
 
 
