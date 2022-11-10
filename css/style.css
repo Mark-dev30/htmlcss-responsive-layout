@@ -41,6 +41,12 @@ p{
     margin: 0 auto;
 }
 
+.align-center-50{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
 .margin-bot-20px{
     margin-bottom: 20px;
 }
@@ -85,6 +91,12 @@ p{
     border: transparent;
     border-radius: 20px;
     padding: 8px 40px;
+}
+
+.button-large{
+    border: transparent;
+    border-radius: 20px;
+    padding: 15px 40px;
 }
 
 
@@ -161,20 +173,23 @@ main{
     margin-bottom: 20px;
 }
 
-.clm-66{
-    width: 66%;
-    display: flex;
-}
-
 .clm-32{
     width: 32%; 
     
 }
 
-
 .clm-50{
     width: 50%;
 }
+
+.clm-66{
+    width: 66%;
+    display: flex;
+}
+
+
+
+
 
 /* content */
 
@@ -237,9 +252,6 @@ main{
 .planning1-img img{
     width: 70%;
 }
-
-
-
 
 .planning2{
     display: flex;
@@ -377,8 +389,6 @@ main{
 }
 
 
-
-
 /* section about us */
 
 .about-us{
@@ -386,15 +396,87 @@ main{
     margin: 20px 0;
 }
 
+.content-about-us{
+    margin: 20px;
+}
+
+.content-img-about-us{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.content-about-us h2{
+    font-size: 30px;
+    color: #9792e4;
+}
+
+.content-about-us p{
+    color: grey;
+    margin-top: 25px;
+}
+
+.content-img-about-us img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+.content-img-about-us i{
+    font-size: 40px;
+    color: #9792e4;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.text-about-us p{
+    color: #9792e4;
+    margin: 25px 0;
+}
+
+
 /* section started */
 
 .row-started, .row-footer{
     text-align: center;
 }
 
+.clm-started{
+    padding: 30px 0;
+    color: white;
+}
+
+.clm-started h5{
+    margin-bottom: 15px;
+}
+
+.clm-started h3{
+    font-size: 30px;
+}
+
+.clm-started h2{
+    font-size: 70px;
+    color: orange;
+    margin: 25px 0;
+}
+
+.clm-started button{
+    margin: 25px 0;
+}
 /* footer */
 
+.row-footer{
+    color: white;
+    padding: 30px 0;
+}
 
+.clm-footer p:last-child{
+    margin-top: 30px;
+}
 
 
 
