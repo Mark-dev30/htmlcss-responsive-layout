@@ -177,6 +177,9 @@ main{
 
 /* columns */
 
+.clm-19{
+    width: 19%;
+}
 .clm-30{
     width: 30%;
     padding: 10px 0;
@@ -208,12 +211,6 @@ main{
     padding: 20px;
 }
 
-
-
-
-
-
-
 /* content */
 
 .content{
@@ -235,9 +232,6 @@ main{
     align-items: flex-end;
 }
 
-.img-phone{
-    
-}
 .img-phone img{
     width: 70%;
 }
@@ -246,8 +240,6 @@ main{
     margin-top: 20px;
 
 }
-
-
 
 /* content icon */
 .content-icon{
@@ -496,11 +488,3 @@ main{
 .clm-footer p:last-child{
     margin-top: 30px;
 }
-
-
-
-
-
-
-
-
